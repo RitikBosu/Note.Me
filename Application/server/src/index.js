@@ -25,6 +25,7 @@ app.use('/api/auth', authRouter);
 
 const PORT = process.env.PORT || 8080;
 
+
 app.listen(PORT,() =>{
     console.log('Server is running at 3001 port')
 });
