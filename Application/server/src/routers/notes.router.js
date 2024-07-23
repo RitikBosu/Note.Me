@@ -8,8 +8,8 @@ router.get("/", notesController.getNote);
 
 router.get("/all", notesController.getAllNotes);
 
-router.patch("/", notesController.updateNotes);
+router.patch("/", notesController.updateNote);
 
-router.delete("/", notesController.deleteNotes);
+router.delete("/", notesController.deleteNote);
 
 module.exports = router;

@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const notesSchema = new mongoose.Schema({
    text: {
     type: String,
-    required: true
+    required: true,
    },
    userId: {
     type: mongoose.Schema.Types.ObjectId,
@@ -12,11 +12,11 @@ const notesSchema = new mongoose.Schema({
    },
    isDeleted: {
     type: Boolean,
-    default: false
+    default: false,
    },
    createdAt: {
       type: String,
-    default: new Date().toISOString()
+    default: new Date().toISOString(),
    }
 });
 
